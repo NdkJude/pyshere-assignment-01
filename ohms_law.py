@@ -1,0 +1,6 @@
+print("Ohm's Law Calculator")
+print("Using the formula V = I * R")
+print("Where V is Voltage, I is Current, and R is Resistance")
+I = int(input("Enter the Current (in A)"))
+R = int(input("Enter the Resistance ( in Ohms)"))
+print("The Voltage V is =", I * R, "volts" )
